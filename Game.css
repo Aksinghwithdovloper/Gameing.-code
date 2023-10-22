@@ -3,10 +3,7 @@
     text-align: center;
 }
 
-body {
-   background-color: rgba(16, 238, 238, 0.212);
- 
-}
+
 
 h1 {
     background-color: darkkhaki;
@@ -28,8 +25,8 @@ h1 {
     margin: 10px;
     text-align: center;
     /* margin-right: 10px; */
-/* } */ */
-
+/* } */
+*/
 /* #reset{
     width: 80px;
     padding: 10px;
@@ -41,7 +38,7 @@ h1 {
     box-shadow: 5px 10px 5px purple;
     cursor: pointer;
     margin: 10px; */
-    /* margin-right: 10px; */
+/* margin-right: 10px; */
 
 /* #bat {
     width: 80px;
@@ -73,49 +70,75 @@ h1 {
 }
 
 /* inner html css */
-#innerbox{
+#innerbox {
     text-align: center;
     margin: 20px;
     font-size: xx-large;
     background-color: black;
     color: red;
-    text-transform: uppercase;
-}
-#msg{
-    text-align: center;
-    margin: 20px;
-    font-size: xx-large;
-    background-color: black;
-    color: yellow;
-    text-transform: uppercase;
-}
-#msg:hover{
-    color: green;
-}
-#score{
-    text-align: center;
-    margin: 20px;
-    font-size: xx-large;
-    background-color: black;
-    color: green;
-    text-transform: uppercase;
+    /* text-transform: capitalize; */
+    text-transform: capitalize;
+    border-radius: 20px;
 }
 
-#score:hover{
+#msg {
+    text-align: center;
+    margin: 20px;
+    font-size: xx-large;
+    background-color: black;
     color: yellow;
+    text-transform: capitalize;
+    border-radius: 20px;
 }
-.img-sige{
-    
+
+#msg:hover {
+    color: purple;
+}
+
+#innerbox:hover {
+    color: blue;
+}
+
+#score {
+    text-align: center;
+    margin: 20px;
+    font-size: xx-large;
+    background-color: black;
+    color: green;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+
+#score:hover {
+    color: deeppink;
+}
+
+.img-sige {
+
+    height: 100px;
+    cursor: pointer;
+}
+
+
+
+button {
     height: 130px;
-}
-
-
-button{
-    height: 145px;
-    width: 145px;
+    width: 130px;
     border: none;
-    background-color: rgb(56, 156, 56);
+    /* background-color: blue; */
     border-radius: 50%;
     margin-top: 10px;
+    cursor: pointer;
 }
 
+#boll-img1:hover {
+    transform: scale(1.7, 1.6);
+}
+
+#bat-img2:hover {
+    transform: scale(1.1, 1);
+}
+
+#stamp-img3:hover {
+    transform: scale(2.1, 1.2);
+}
